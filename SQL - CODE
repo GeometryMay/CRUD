@@ -1,0 +1,10 @@
+CREATE TABLE tb_alumno  
+   (
+   nombre varchar(100) NOT NULL, 
+   calificacion int NOT NULL
+   )
+GO 
+
+INSERT tb_alumno VALUES('andrea',100)  
+GO 
+select * from tb_alumno
